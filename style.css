@@ -1,35 +1,35 @@
 @font-face {
   font-family: 'TT Travels';
-  src: url('/fonts/TT Travels/TTTravels-Medium.eot');
+  src: url('fonts/TT Travels/TTTravels-Medium.eot');
   src: local('TT Travels Medium'), local('TTTravels-Medium'),
-      url('/fonts/TT Travels/TTTravels-Medium.eot?#iefix') format('embedded-opentype'),
-      url('/fonts/TT Travels/fonts/TT Travels/TTTravels-Medium.woff2') format('woff2'),
-      url('/fonts/TT Travels/TTTravels-Medium.woff') format('woff'),
-      url('/fonts/TT Travels/TTTravels-Medium.ttf') format('truetype');
+      url('fonts/TT Travels/TTTravels-Medium.eot?#iefix') format('embedded-opentype'),
+      url('fonts/TT Travels/TTTravels-Medium.woff2') format('woff2'),
+      url('fonts/TT Travels/TTTravels-Medium.woff') format('woff'),
+      url('fonts/TT Travels/TTTravels-Medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'TT Travels';
-  src: url('/fonts/TT Travels/TTTravels-DemiBold.eot');
+  src: url('fonts/TT Travels/TTTravels-DemiBold.eot');
   src: local('TT Travels DemiBold'), local('TTTravels-DemiBold'),
-      url('/fonts/TT Travels/TTTravels-DemiBold.eot?#iefix') format('embedded-opentype'),
-      url('/fonts/TT Travels/TTTravels-DemiBold.woff2') format('woff2'),
-      url('/fonts/TT Travels/TTTravels-DemiBold.woff') format('woff'),
-      url('/fonts/TT Travels/TTTravels-DemiBold.ttf') format('truetype');
+      url('fonts/TT Travels/TTTravels-DemiBold.eot?#iefix') format('embedded-opentype'),
+      url('fonts/TT Travels/TTTravels-DemiBold.woff2') format('woff2'),
+      url('fonts/TT Travels/TTTravels-DemiBold.woff') format('woff'),
+      url('fonts/TT Travels/TTTravels-DemiBold.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'TT Travels';
-  src: url('/fonts/TT Travels/TTTravels-Bold.eot');
+  src: url('fonts/TT Travels/TTTravels-Bold.eot');
   src: local('TT Travels Bold'), local('TTTravels-Bold'),
-      url('/fonts/TT Travels/TTTravels-Bold.eot?#iefix') format('embedded-opentype'),
-      url('/fonts/TT Travels/TTTravels-Bold.woff2') format('woff2'),
-      url('/fonts/TT Travels/TTTravels-Bold.woff') format('woff'),
-      url('/fonts/TT Travels/TTTravels-Bold.ttf') format('truetype');
+      url('fonts/TT Travels/TTTravels-Bold.eot?#iefix') format('embedded-opentype'),
+      url('fonts/TT Travels/TTTravels-Bold.woff2') format('woff2'),
+      url('fonts/TT Travels/TTTravels-Bold.woff') format('woff'),
+      url('fonts/TT Travels/TTTravels-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
@@ -253,7 +253,7 @@ h2 {
   position: absolute;
   bottom: 0;
   right: 0;
-  background-image: url('/img/arrow_long.svg');
+  background-image: url('img/arrow_long.svg');
   width: 46px;
   height: 16px;
 }
@@ -352,7 +352,7 @@ h2 {
   top: 86px;
   left: 50%;
   transform: translateX(-50%);
-  background-image: url('/img/line.png');
+  background-image: url('img/line.png');
 }
 
 .pricing-large .card {
@@ -540,7 +540,7 @@ h2 {
   left: -90px;
   height: 121px;
   width: 44px;
-  background-image: url('/img/arrow_left.svg');
+  background-image: url('img/arrow_left.svg');
 }
 
 .carousel .carousel-control-next-icon {
@@ -548,7 +548,7 @@ h2 {
   right: -90px;
   height: 121px;
   width: 44px;
-  background-image: url('/img/arrow_right.svg');
+  background-image: url('img/arrow_right.svg');
 }
 
 .carousel-caption .name {
