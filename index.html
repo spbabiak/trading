@@ -17,7 +17,7 @@
 <body style="width: 100%; margin: auto;">
   <section id="hero">
     <header class="header">
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top pt-4">
+      <nav class="navbar navbar-expand-md navbar-dark pt-4">
         <div class="container-xl px-5">
           <a class="navbar-brand" href="#">
             <b style="font-family: 'Inter', sans-serif; font-weight: bold; font-size: 2rem;">LOGO</b>
@@ -144,44 +144,45 @@
         </div><!-- /.row -->
       </div>
     </div>
+    <div id="steps">
+      <div class="container-lg px-5 content-wrapper">
+        <p class="header-label">Get Ready</p>
+        <h2>How to start</h2>
+        <div class="container steps-list">
+          <!-- Three columns of text below the carousel -->
+          <div class="row row-cols-md-2 justify-content-center">
+            <div class="col-lg-4 feature d-flex align-items-center flex-column">
+              <div class="d-flex align-items-center justify-content-start w-100">
+                <p class="step-number me-3">1</p>  
+                <h3 class="step-text-main">Create Your Trading Account</h3>
+              </div>
+              <p class="step-text-secondary">Unlock the world of financial opportunities by setting up your personalized trading account</p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4 feature d-flex align-items-center flex-column">
+              <div class="d-flex align-items-center justify-content-start w-100">
+                <p class="step-number me-3">2</p>  
+                <h3 class="step-text-main">Explore Powerful Trading Tools</h3>
+              </div>  
+              <p class="step-text-secondary">Empower your trading journey with our cutting-edge tools and comprehensive analytics</p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4 feature d-flex align-items-center flex-column">
+              <div class="d-flex align-items-center justify-content-start w-100">
+                <p class="step-number me-3">3</p>  
+                <h3 class="step-text-main">Personalize Your Trading Experience</h3>
+              </div>
+              <p class="step-text-secondary">Whether you're a day trader or a long-term investor, fine-tune your settings to make the most out of your trading journey</p>
+            </div><!-- /.col-lg-4 -->
+          </div><!-- /.row -->
+        </div>
+      </div>  
+    </div>
   </section>
-  <section id="steps">
-    <div class="container-lg px-5 content-wrapper">
-      <p class="header-label">Get Ready</p>
-      <h2>How to start</h2>
-      <div class="container steps-list">
-        <!-- Three columns of text below the carousel -->
-        <div class="row row-cols-md-2 justify-content-center">
-          <div class="col-lg-4 feature d-flex align-items-center flex-column">
-            <div class="d-flex align-items-center justify-content-start w-100">
-              <p class="step-number me-3">1</p>  
-              <h3 class="step-text-main">Create Your Trading Account</h3>
-            </div>
-            <p class="step-text-secondary">Unlock the world of financial opportunities by setting up your personalized trading account</p>
-          </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4 feature d-flex align-items-center flex-column">
-            <div class="d-flex align-items-center justify-content-start w-100">
-              <p class="step-number me-3">2</p>  
-              <h3 class="step-text-main">Explore Powerful Trading Tools</h3>
-            </div>  
-            <p class="step-text-secondary">Empower your trading journey with our cutting-edge tools and comprehensive analytics</p>
-          </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4 feature d-flex align-items-center flex-column">
-            <div class="d-flex align-items-center justify-content-start w-100">
-              <p class="step-number me-3">3</p>  
-              <h3 class="step-text-main">Personalize Your Trading Experience</h3>
-            </div>
-            <p class="step-text-secondary">Whether you're a day trader or a long-term investor, fine-tune your settings to make the most out of your trading journey</p>
-          </div><!-- /.col-lg-4 -->
-        </div><!-- /.row -->
-      </div>
-    </div>  
-  </section>
+  
   <section id="pricing">
     <div class="container-xl px-5">
       <p class="header-label">Pricing</p>
       <h2>Choose your plan</h2>
-      <div class="container-xl">
+      <div class="container-xl pricing-container">
         <div class="row row-cols-1 row-cols-md-3 row-cols-xxl-2 mb-3 text-center justify-content-center justify-content-between">
           <div class="col d-none d-xxl-flex me-5" style="width: fit-content;">
             <div class="card-descriptors mb-4 shadow-sm">
@@ -307,16 +308,17 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="banner d-flex align-items-center flex-column flex-lg-row justify-content-between bg-primary">
-        <div>
-          <h2 class="mb-0 mt-0">How fast will you get paid?</h2>
-          <h3>Get your first payment share in 24 hors!</h3>
+        <div class="banner d-flex align-items-center flex-column flex-lg-row justify-content-between bg-primary">
+          <div>
+            <h2 class="mb-0 mt-0">How fast will you get paid?</h2>
+            <h3>Get your first payment share in 24 hors!</h3>
+          </div>
+          <button type="button" class="btn btn-lg btn-light">Start Now</button>
         </div>
-        <button type="button" class="btn btn-lg btn-light">Start Now</button>
       </div>
+    </div>
   </section>
-  <section id="accessibility">
+  <section id="accessibility" class="pb-0">
     <div class="container-xl px-5">
       <div class="row row-cols-1 row-cols-lg-2 align-items-center justify-content-center justify-content-lg-between flex-wrap text-center text-lg-left">
         <div class="">
@@ -325,11 +327,11 @@
           <p class="description">Experience the freedom of trading without constraints. Our platform is designed with accessibility in mind, enabling you to trade seamlessly from various devices. Whether you prefer the convenience of a desktop, the flexibility of a tablet, or the mobility of a smartphone, our responsive design ensures a consistent and user-friendly experience across all devices. Stay connected to the markets and execute trades effortlessly, empowering you to make informed decisions wherever you are</p>
           <button type="button" class="btn btn-lg btn-primary d-block m-auto m-lg-0">Start Now</button>
         </div>
-        <img width="490" src="img/phone_mockup.png" alt="" class="d-block m-auto">
+        <img width="490" src="img/phone_mockup.png" alt="" class="d-block m-auto" style="max-width: 490px;">
       </div>
     </div>
   </section>
-  <section class="earn text-center container">
+  <section class="earn text-center container mb-5">
     <div class="row py-lg-5">
       <div class="col-md-8 mx-auto">
         <p class="header-label">Earn Now</p>
@@ -390,55 +392,56 @@
         </button>
       </div>
     </div>
-  </section>
-  <section id="contacts">
-    <div class="container-xl px-5">
-      <div class="row row-cols-1 row-cols-xxl-2 d-flex flex-column flex-xxl-row align-items-center justify-content-between flex-wrap">
-        <div class="col col-xl-5 pb-3 mb-5">
-          <p class="header-label">Contact us</p>
-          <h2>Get In Touch With Us Today</h2>
-          <p class="lead fs-3">Welcome to Your Design, where your financial success is our priority. If you have any questions, concerns, or if you simply want to connect with our team, we're here for you. Reach out to us using the following contact options:</p>
+    <div id="contacts">
+      <div class="container-xl px-5 contacts">
+        <div class="row row-cols-1 row-cols-xxl-2 d-flex flex-column flex-xxl-row align-items-center justify-content-between flex-wrap">
+          <div class="col col-xl-6 pb-3 mb-5" style="max-width: 530px;">
+            <p class="header-label">Contact us</p>
+            <h2>Get In Touch With Us Today</h2>
+            <p class="lead fs-3">Welcome to Your Design, where your financial success is our priority. If you have any questions, concerns, or if you simply want to connect with our team, we're here for you. Reach out to us using the following contact options:</p>
+          </div>
+          <div class="form-wrapper col">
+            <form id="contact-form" class="main-form d-flex flex-wrap justify-content-md-between" action="" method="post">
+              <div class="mb-5 me-sm-3 me-md-0 form-field">
+                <label for="first-name" class="form-label">First Name</label>
+                <input type="text" class="form-control" name="name" id="first-name">
+                <span class="error_name" aria-live="polite"></span>
+              </div>
+              <div class="mb-5 form-field">
+                <label for="last-name" class="form-label">Last Name</label>
+                <input type="text" class="form-control" name="surname" id="last-name">
+                <span class="error_surname" aria-live="polite"></span>
+              </div>
+              <div class="mb-5 me-sm-3 me-md-0 form-field">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" name="email" id="email">
+                <span class="error_email" aria-live="polite"></span>
+              </div>
+              <div class="mb-5 form-field">
+                <label for="phone" class="form-label">Phone</label>
+                <input type="phone" class="form-control" name="phone" id="phone">
+                <span class="error_phone" aria-live="polite"></span>
+              </div>
+              <div class="mb-5 me-sm-3 me-md-0 form-field">
+                <label for="country" class="form-label">Country of Residence</label>
+                <input type="text" class="form-control" name="country" id="country">
+                <span class="error_country" aria-live="polite"></span>
+              </div>
+              <div class="d-flex flex-column mb-5 form-field">
+                <label for="platforms" class="form-label">Platforms</label>
+                <select class="form-select platforms" id="form-control" name="platform" aria-label="Platforms select">
+                  <option selected value="1">MT4</option>
+                  <option value="2">MT5</option>
+                </select>
+                <span class="error_platform" aria-live="polite"></span>
+              </div>
+              <button class="btn btn-primary btn-lg pt-1 me-0 me-md-auto">Start Now</button>
+            </form>
         </div>
-        <div class="form-wrapper col">
-          <form id="contact-form" class="main-form d-flex flex-wrap justify-content-md-between" action="" method="post">
-            <div class="mb-5 me-sm-3 me-md-0 form-field">
-              <label for="first-name" class="form-label">First Name</label>
-              <input type="text" class="form-control" name="name" id="first-name">
-              <span class="error_name" aria-live="polite"></span>
-            </div>
-            <div class="mb-5 form-field">
-              <label for="last-name" class="form-label">Last Name</label>
-              <input type="text" class="form-control" name="surname" id="last-name">
-              <span class="error_surname" aria-live="polite"></span>
-            </div>
-            <div class="mb-5 me-sm-3 me-md-0 form-field">
-              <label for="email" class="form-label">Email</label>
-              <input type="email" class="form-control" name="email" id="email">
-              <span class="error_email" aria-live="polite"></span>
-            </div>
-            <div class="mb-5 form-field">
-              <label for="phone" class="form-label">Phone</label>
-              <input type="phone" class="form-control" name="phone" id="phone">
-              <span class="error_phone" aria-live="polite"></span>
-            </div>
-            <div class="mb-5 me-sm-3 me-md-0 form-field">
-              <label for="country" class="form-label">Country of Residence</label>
-              <input type="text" class="form-control" name="country" id="country">
-              <span class="error_country" aria-live="polite"></span>
-            </div>
-            <div class="d-flex flex-column mb-5 form-field">
-              <label for="platforms" class="form-label">Platforms</label>
-              <select class="form-select platforms" id="form-control" name="platform" aria-label="Platforms select">
-                <option selected value="1">MT4</option>
-                <option value="2">MT5</option>
-              </select>
-              <span class="error_platform" aria-live="polite"></span>
-            </div>
-            <button class="btn btn-primary btn-lg pt-1 me-0 me-md-auto">Start Now</button>
-          </form>
       </div>
     </div>
   </section>
+  
   <footer>
     <nav class="navbar navbar-expand-md navbar-dark pt-4">
       <div class="container-xl px-5">
@@ -472,7 +475,7 @@
         </div>
       </div>
     </nav>
-    <div class="container-md py-5 px-5">
+    <div class="container-xl py-5 px-5">
       <p class="lead fs-4">Augue arcu orci dui purus nisl aliquam neque pretium mauris. Augue arcu orci dui purus nisl aliquam neque pretium mauris.Augue arcu orci dui purus nisl aliquam neque pretium mauris. Augue arcu orci dui purus nisl aliquam neque pretium mauris.</p>
     </div>
   </footer>
